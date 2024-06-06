@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:768px) and (max-width:1024px)
+{
+div.HdrSctn div.Hdr div.NavMenu ul li, div.MainHdrSctn div.MainHdr div.NavMenu ul li
+{
+margin-right:28px;
+}	
+div.Footer div.FooterSctn div.FtrCntnt{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	}
+
+}
+
+
+
+@media (min-width:768px) and (max-width:1023px)
+{
+div.HdrSctn div.Hdr div.NavMenu ul li, div.MainHdrSctn div.MainHdr div.NavMenu ul li
+{
+	margin-right:28px;
+	}
+		div.TabBttns div.TabsBttnCntnt {
+    width: 33.33%;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+	div.HdrSctn div.Hdr div.NavMenu, div.MainHdrSctn div.MainHdr div.NavMenu {
+	display:none;
+	}
+		div.HdrSctn div.Hdr div.TMTLogo, div.MainHdrSctn div.MainHdr div.TMTLogo{
+    width: 60%;		
+    }
+	div.HdrSctn div.Hdr div.SocialIcons, div.MainHdrSctn div.MainHdr div.SocialIcons
+{	
+	width:40%;
+	display:inline-block;
+}
+	div.HdrSctn div.Hdr div.SocialIcons ul li, div.MainHdrSctn div.MainHdr div.SocialIcons ul li {
+    display: inline-block;
+	padding-bottom: 10px;
+}
+	.menuactive
+{
+color:#a50e59;
+font-family: 'Raleway-Bold';
+font-size:14px;
+}
+.menuinactive
+{
+color:#ed359a;
+font-family: 'Raleway-Bold';
+font-size:14px;	
+}	
+.menu
+{
+width:70%;
+font-size:60px;
+margin-left:30%;
+display:flex;
+cursor: pointer;
+}
+.menu a
+{
+color:#ed359a;	
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+margin-left:4%;
+display: none;
+position: absolute;
+background-color: #a50e59;
+min-width: 500px;
+z-index: 1;
+}
+.dropdown-content a {
+color: #ffffff;
+padding: 16px 20px;
+text-decoration: none;
+display: block;
+font-family: 'Raleway-Bold';
+font-size:22px;
+border-bottom:1px solid#ffffff;
+}
+.dropdown-content a:hover 
+{
+background-color: #d6d4d4;
+color:#a50e59;
+}
+.dropdown:hover .dropdown-content 
+{
+display: block;
+margin-left:30%;
+}
+.dropdown:hover .menu a 
+{
+color: #a50e59;
+}
+div.BnnrSctn div.BnnrTtlSctn div.BnnrCntnt span.BnnrTtl, div.BnnrSctn div.BnnrTtlSctn div.BnnrCntnt span.BnnrTtlitalic{
+	font-size:32px;
+	}
+div.TMTCntnt {
+    padding: 0 10px 0 10px;
+}
+div.TMTCntnt div.Logos div.BrandLogos {
+    width: 33%;
+    display: inline-block;	
+}
+div.Logos div.ABLogos div.BrandLogos {
+ margin:0;
+}
+
+div.TMTCntnt div.DNSMapLst div.DNSTxtCntnt {
+    width: 50%;
+    display: inline-block;
+}
+div.Bttn div.CntctTxt {
+    display: block;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+div.FrmSctn .firstname, .lastname, .email, .areaofinterest, .message, .city, .state {  
+    width: 100%;
+	padding:0;
+}
+div.FrmSctn .message {
+    width: 100%;	
+}
+div.Footer div.FooterSctn{
+		text-align: center;	
+	}
+div.Footer div.FooterSctn div.FtrCntnt{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	}
+	div.Footer div.FooterSctn div.FtrCntnt div.LftFtrTxt {
+		text-align: left;
+	}	
+
+}
+
+@media only screen and (max-width:767px), 
+{
+	
+div.TMTCntnt div.TtlSctn div.HdrTtl {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+	div.HdrSctn div.Hdr div.NavMenu, div.MainHdrSctn div.MainHdr div.NavMenu {
+	display:none;
+	}
+	div.HdrSctn div.Hdr div.TMTLogo, div.MainHdrSctn div.MainHdr div.TMTLogo{
+    width: 59%;
+	margin-left:1%;	
+    }
+	div.HdrSctn div.Hdr div.SocialIcons, div.MainHdrSctn div.MainHdr div.SocialIcons
+{	
+	width:39%;
+	display:inline-block;
+	margin-right:1%;
+	
+}
+	div.HdrSctn div.Hdr div.SocialIcons ul li, div.MainHdrSctn div.MainHdr div.SocialIcons ul li {
+    display: inline-block;
+	padding-bottom: 10px;
+}
+	span.InnerTxt, span.InnerTxt a, span.InnerTxtbold, span.BttmInnerTxt, span.InnerTxtActive {	
+	font-size:18px;	
+}
+div.BnnrSctn div.BnnrTtlSctn div.BnnrCntnt span.BnnrTtl, div.BnnrSctn div.BnnrTtlSctn div.BnnrCntnt span.BnnrTtlitalic {    
+    font-size: 24px;    
+}
+div.BnnrSctn div.BnnrTtlSctn div.BnnrCntnt {
+    padding: 20px;
+}
+	
+.menuactive
+{
+color:#a50e59;
+font-family: 'Raleway-Bold';
+font-size:14px;
+}
+.menuinactive
+{
+color:#ed359a;
+font-family: 'Raleway-Bold';
+font-size:14px;	
+}	
+.menu
+{
+width:70%;
+font-size:60px;
+margin-left:30%;
+display:flex;
+cursor: pointer;
+}
+.menu a
+{
+color:#ed359a;	
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+margin-left:4%;
+display: none;
+position: absolute;
+background-color: #a50e59;
+min-width: 300px;
+z-index: 1;
+}
+.dropdown-content a {
+color: #ffffff;
+padding: 16px 20px;
+text-decoration: none;
+display: block;
+font-family: 'Raleway-Bold';
+font-size:22px;
+border-bottom:1px solid#ffffff;
+}
+.dropdown-content a:hover 
+{
+background-color: #d6d4d4;
+color:#a50e59;
+}
+.dropdown:hover .dropdown-content 
+{
+display: block;
+margin-left:30%;
+}
+.dropdown:hover .menu a 
+{
+color: #a50e59;
+}
+div.TMTCntnt div.TtlSctn span.TMTTtl {    
+    font-size: 22px;
+	font-family: 'Raleway-Bold';
+}
+div.TMTCntnt div.TtlSctn div.Lftbar, div.TMTCntnt div.TtlSctn div.Rghtbar {
+    margin: 6px 0;
+	width:20px;
+	height:3px;
+}
+	div.TabBttns {
+    
+    padding: 0 0 20px 0;
+}
+div.TabBttns div.TabsBttnCntnt {
+    width: 100%;
+    display: block;
+	padding-bottom: 10px;
+}
+div.TabsBttnHldr a {
+	    margin-top: 10px;
+}
+div.TabsBttnHldr {
+	   padding:0;
+}
+div.TMTCntnt div.Logos {
+    width: 100%;
+    padding-bottom: 10px;
+}
+div.Logos div.ABLogos {
+    width: 100%;
+    display: block;
+	
+}
+div.Logos div.ABSportyLogo div.BrandLogo {
+    text-align: center;
+	padding-bottom:20px;
+}
+span.ABSubTtl {    
+    padding: 20px 0 5px 0;
+    display: block;
+}	
+div.Logos div.ABSportyLogo {
+    width: 100%;
+    display: block;
+}
+div.TMTCntnt div.Logos div.BrandLogos {
+    width: 100%;
+    display: block;
+	text-align: center;
+	padding-bottom:10px;
+}
+div.TMTCntnt div.DNSMapLst div.DNSTxtCntnt {
+    width: 80%;
+    display: block;
+	margin-left:20%;;
+	
+}
+div.TMTCntnt div.DNSImg img {
+    width: 100%;
+    height: auto;
+}
+div.FrmSctn .firstname, .lastname, .email, .areaofinterest, .message, .city, .state {
+    display: inline-block;
+    font-family: 'Raleway-Bold';
+    font-size: 18px;
+    color: #ed359a;
+    width: 100%;
+	padding:0;	
+}
+div.FrmSctn .message {
+    width: 100%;	
+}
+div.Bttn div.CntctTxt div.BttnHldr {
+    width: 100%;
+    display: inline-block;
+	text-align: center;
+}
+div.Logos div.ABLogos div.BrandLogos {
+    margin: 0;
+    
+}
+div.TMTCntnt {
+    padding: 0 10px 0 10px;
+}
+span.SPTxtSubTtl {    
+    font-size: 20px;    
+}
+span.InnerTxtLst {   
+    font-size: 18px;
+}
+div.Footer div.FooterSctn div.FtrCntnt{
+	text-align: center;	
+}
+div.Footer div.FooterSctn div.FtrCntnt div.LftFtrTxt, div.Footer div.FooterSctn div.FtrCntnt div.RgtFtrTxt{
+	width:100%;
+	display:block;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	}
+}
